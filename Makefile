@@ -6,7 +6,7 @@
 #    By: tcaron <tcaron@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/12/26 11:52:41 by tcaron            #+#    #+#              #
-#    Updated: 2013/12/26 11:52:42 by tcaron           ###   ########.fr        #
+#    Updated: 2014/03/27 17:43:54 by sguirrie         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -54,7 +54,7 @@ SRCS_TERM	= src/builtin/ft_echo.c \
 			  src/program_main/main.c \
 			  src/prompt/ft_prompt.c \
 			  src/termods/ft_termods.c \
-  			  src/termods/ft_signal.c \
+			  src/termods/ft_signal.c \
 			  src/touch_control/ft_keycatch_ud_wl.c \
 
 LIB			= libft/libft.a
@@ -65,7 +65,7 @@ OBJS		= $(SRCS:.c=.o)
 
 OBJS_TERM	= $(SRCS_TERM:.c=.o)
 
-CFLAGS		= -Wall -Wextra -Werror -O3 -g
+CFLAGS		= -Wall -Wextra -Werror
 
 RM			= rm -rf
 
